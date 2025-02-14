@@ -1,1 +1,91 @@
 /* Your styles here */
+body {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e9edee;
+}
+main {
+  margin: 20px;
+  text-align: center;
+}
+
+header,
+footer {
+  background-color: #22303f;
+}
+.header {
+  width: 100px;
+  margin: 10px 0 10px 25px;
+}
+
+nav {
+  background-color: #35475b;
+  padding: 9px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  font-size: 15px;
+}
+
+.Gift {
+  background-color: #f56500;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.Holiday {
+  margin-top: 20px;
+  padding: 62px;
+  width: auto;
+  background-image: url(../images/bg-image.png);
+  color: white;
+}
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.choose img {
+  width: 310px;
+  height: 350px;
+  object-fit: cover;
+  margin: 15px;
+  border-radius: 17px;
+  box-shadow: 5px 5px 10px rgba(24, 24, 24, 0.5);
+}
+.choose {
+  background-color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+}
+.choose p {
+  text-align: left;
+  margin-left: 25px;
+}
+a {
+  color: #3195b9;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.mainsection img {
+  width: 100%;
+}
+.mainsection div {
+  margin-bottom: 25px;
+}
+
+.footer {
+  text-align: center;
+  text-decoration: underline white;
+}
+.footer img {
+  width: 150px;
+  margin: 50px;
+}
